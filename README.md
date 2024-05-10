@@ -13,10 +13,10 @@ sphinxの設定
 docker-compose exec mypython sphinx-quickstart docs
 ```
 
-sphinxのconfigファイルを編集
+sphinxのconfigファイルを編集（うまくいかないので手動で編集してください）
 
 ```bash
-docker-compose exec -T mypython patch -p0 < conf.py.diff 
+docker-compose exec -T mypython patch -p0 < conf.py.diff
 ```
 
 各モジュールのsphinxのrstファイルを生成
